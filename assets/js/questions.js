@@ -34,7 +34,7 @@ let questions = [
             "Computational Super System"
         ]
     },
-    {
+/*    {
         numb: 4,
         question: "Which of the following semantic HTML tags can link a javaScript file?",
         answer: "<script></script>",
@@ -55,6 +55,6 @@ let questions = [
             "<script>",
             "<body>"
         ]
-    },
+    }, */
     
 ]
