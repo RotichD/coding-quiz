@@ -2,7 +2,8 @@
 var startBtn = document.querySelector(".start-btn button");
 var infoBox = document.querySelector(".info-box");
 var exitBtn = infoBox.querySelector(".buttons .quit");
-var continueBtn = document.querySelector(".buttons .restart");
+var continueBtn = infoBox.querySelector(".buttons .restart");
+var quizBox = document.querySelector(".quiz-box");
 
 // If Start Quiz Button is Clicked
 startBtn.onclick = ()=>{
@@ -12,4 +13,10 @@ startBtn.onclick = ()=>{
 // If Exit Quiz Button is Clicked
 exitBtn.onclick = ()=>{
     infoBox.classList.remove("activeInfo"); // hides info box
+}
+
+// If Continue Button is Clicked
+continueBtn.onclick = ()=>{
+    infoBox.classList.remove("activeInfo"); // hides info box
+    quizBox.classList.add("activeQuiz"); // shows Quiz Box
 }
