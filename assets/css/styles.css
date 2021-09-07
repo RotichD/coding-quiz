@@ -247,6 +247,10 @@ section .option-list .option:hover {
     border-color: #a4283a;
 }
 
+.option-list .option.disabled {
+    pointer-events: none;
+}
+
 .quiz-box footer {
     height: 60px;
     width: 100%;
